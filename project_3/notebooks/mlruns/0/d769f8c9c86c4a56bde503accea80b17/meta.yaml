@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brenoteix/repos/mlflow_course/project_3/notebooks/mlruns/0/d769f8c9c86c4a56bde503accea80b17/artifacts
+end_time: 1703264151203
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d769f8c9c86c4a56bde503accea80b17
+run_name: with_discrtizer_hyperopt
+run_uuid: d769f8c9c86c4a56bde503accea80b17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703264140940
+status: 3
+tags: []
+user_id: root

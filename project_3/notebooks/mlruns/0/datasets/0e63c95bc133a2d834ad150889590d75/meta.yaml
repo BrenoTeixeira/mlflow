@@ -1,0 +1,13 @@
+digest: 3e9461c1
+name: dataset
+profile: '{"num_rows": 49500, "num_elements": 544500}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "TaxaDeUtilizacaoDeLinhasNaoGarantidas"},
+  {"type": "double", "name": "Idade"}, {"type": "double", "name": "NumeroDeVezes30-59DiasAtrasoNaoPior"},
+  {"type": "double", "name": "TaxaDeEndividamento"}, {"type": "double", "name": "RendaMensal"},
+  {"type": "double", "name": "NumeroDeLinhasDeCreditoEEmprestimosAbertos"}, {"type":
+  "double", "name": "NumeroDeVezes90DiasAtraso"}, {"type": "double", "name": "NumeroDeEmprestimosOuLinhasImobiliarias"},
+  {"type": "double", "name": "NumeroDeVezes60-89DiasAtrasoNaoPior"}, {"type": "double",
+  "name": "NumeroDeDependentes"}, {"type": "long", "name": "label"}]}'
+source: '{"tags": {"mlflow.user": "root", "mlflow.source.name": "/root/.pyenv/versions/3.10.12/envs/mlflowenv/lib/python3.10/site-packages/ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

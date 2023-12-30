@@ -1,0 +1,30 @@
+artifact_path: baseline_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.2
+mlflow_version: 2.8.1
+model_size_bytes: 451
+model_uuid: b6cbc7233bfb46d9b1edf0d480948066
+run_id: e1be3a59a3f34189a6309e655d57110a
+signature:
+  inputs: '[{"type": "double", "name": "TaxaDeUtilizacaoDeLinhasNaoGarantidas"}, {"type":
+    "double", "name": "Idade"}, {"type": "double", "name": "NumeroDeVezes30-59DiasAtrasoNaoPior"},
+    {"type": "double", "name": "TaxaDeEndividamento"}, {"type": "double", "name":
+    "RendaMensal"}, {"type": "double", "name": "NumeroDeLinhasDeCreditoEEmprestimosAbertos"},
+    {"type": "double", "name": "NumeroDeVezes90DiasAtraso"}, {"type": "double", "name":
+    "NumeroDeEmprestimosOuLinhasImobiliarias"}, {"type": "double", "name": "NumeroDeVezes60-89DiasAtrasoNaoPior"},
+    {"type": "double", "name": "NumeroDeDependentes"}]'
+  outputs: '[{"type": "long", "name": "target"}]'
+  params: null
+utc_time_created: '2023-12-22 16:56:18.982728'
